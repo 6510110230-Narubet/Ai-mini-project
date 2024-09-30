@@ -202,7 +202,7 @@ def run(config_path):
     )
 
     pop = neat.Population(config)
-    pop.run(eval_genomes, 50)
+    pop.run(eval_genomes, 25)
 
 # เริ่มต้นโปรแกรม
 if __name__ == '__main__':
